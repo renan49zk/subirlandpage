@@ -1,0 +1,40 @@
+*/{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+img{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(japao.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 06px 12px;
+  background: darkgrey;
+}
+nav ul {
+  text-decoration: none;
+  display: flex;
+  gap: 30px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+@media (max-width: 580px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
