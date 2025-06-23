@@ -128,37 +128,19 @@ footer {
     font-size: 16px;
     text-align: center;
 }
-<<<<<<< HEAD
-=======
-.container {
-    width: 90%;
-    max-width: 1200px; 
-    display: flex;
-    align-items: center;
-}
->>>>>>> 20e63b353b13e25e23d826f4acffbccac1384b3e
 footer a {
     color: #00acee; 
     text-decoration: none;
     margin-right: 8px;
-<<<<<<< HEAD
     width: 50px;
     height: 50px;
-=======
->>>>>>> 20e63b353b13e25e23d826f4acffbccac1384b3e
 }
 
 footer a:hover {
     color: #1da1f2;
 }
-<<<<<<< HEAD
 footer a img {
     width: 30px;
     height: 30px;
-=======
-img {
-    width: 50px;
-    height: 50px;
->>>>>>> 20e63b353b13e25e23d826f4acffbccac1384b3e
 }
 
