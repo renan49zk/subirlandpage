@@ -5,7 +5,6 @@
     padding: 0;
 }
 
-
 /* Header */
 header{
     background-image: url("../img/fundo-topo.jpg");
@@ -119,6 +118,29 @@ h2{
     padding: 10px 20px;
     border-radius: 5px;
 }
-footer{
-    background-color: #6dd432;
+footer {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    background-color: #222222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
+footer a {
+    color: #00acee; 
+    text-decoration: none;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+footer a:hover {
+    color: #1da1f2;
+}
+footer a img {
+    width: 30px;
+    height: 30px;
+}
+
